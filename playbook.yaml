@@ -1,7 +1,7 @@
 - hosts: localhost
   become: yes
   vars:
-    jenkins_hostname: IP_ADDRESS
+    jenkins_hostname: 155.98.37.36
     docker_users:
     - jenkins
   roles:
